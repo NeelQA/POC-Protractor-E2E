@@ -1,5 +1,5 @@
 {
-  "name": "POC-Protractor-E2E",
+  "name": "poc-protractor-e2e",
   "version": "1.0.0",
   "description": "End to end tests for the sample project",
   "main": "index.js",
@@ -7,6 +7,8 @@
   "author": "Neel",
   "license": "ISC",
   "dependencies": {
-    "protractor": "^5.4.1"
+    "protractor": "^5.4.1",
+    "tslint": "^5.11.0",
+    "typescript": "~2.6.2"
   }
 }

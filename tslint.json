@@ -11,7 +11,7 @@
         "object-literal-shorthand": false,
         "object-literal-sort-keys": false,
         "only-arrow-functions": false,
-        "whitespace": [ // All except check-typecast
+        "whitespace": [
             true,
             "check-branch",
             "check-decl",
@@ -20,10 +20,9 @@
             "check-separator",
             "check-rest-spread",
             "check-type",
-            // "check-typecast"
             "check-preblock",
             "check-type-operator",
             "check-preblock"
         ]
-    }   
+    }
 }

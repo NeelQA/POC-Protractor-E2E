@@ -9,6 +9,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "chromedriver": "^2.43.0",
     "protractor": "^5.4.1",
     "tslint": "^5.11.0",
     "typescript": "~2.6.2"

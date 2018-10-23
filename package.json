@@ -11,13 +11,14 @@
     "lint": "tslint --force --format verbose --project ./tsconfig.json",
     "build": "yarn run clean && echo Running TypeScript compiler && tsc && yarn run lint",
     "build-and-run": "yarn run build && protractor",
-    "start": "rimraf reports/tests && JUNIT_REPORT_NAME=e2e JUNIT_REPORT_PATH=reports/tests/results.xml yarn run build-and-run -- dist/protractor.conf.js",
+    "start": "rimraf reports/tests && cross-env JUNIT_REPORT_NAME=e2e JUNIT_REPORT_PATH=reports/tests/results.xml yarn run build-and-run -- dist/protractor.conf.js",
     "start-local": "yarn run build-and-run -- dist/protractor.conf.local.js"
   },
   "dependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "chromedriver": "^2.43.0",
+    "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
     "mocha-jenkins-reporter": "^0.4.1",
     "protractor": "^5.4.1",

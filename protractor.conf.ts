@@ -27,8 +27,6 @@ export const config: Config = {
     },
 
     plugins: [
-        { path: "./plugins/cleanEnvironment.js" },
         { path: "./plugins/sync.js" },
-        { path: "./plugins/ensureNoConsoleErrors.js" },
     ],
 };

@@ -2,7 +2,6 @@ import * as chromedriver from "chromedriver";
 import { Config } from "protractor";
 
 import * as chai from "chai";
-// import * as chaiAsPromised from "chai-as-promised";
 import chaiAsPromised = require("chai-as-promised");
 
 chai.use(chaiAsPromised);

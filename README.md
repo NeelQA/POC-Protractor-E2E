@@ -1,6 +1,6 @@
-# POC-Protractor-E2E
+# Protractor
 
-This project is just a proof of concept
+This project is for protractor tests
 
 ## Protractor
 

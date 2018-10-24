@@ -6,7 +6,7 @@ const overrides: Config = {
         browserName: "chrome",
         chromeOptions: {
             args: [
-                "--window-size=1440,900",
+                "--window-size=1920,1080",
             ],
         },
     },

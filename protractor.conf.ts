@@ -14,8 +14,9 @@ export const config: Config = {
         browserName: "chrome",
         chromeOptions: {
             args: [
-                "--disable-gpu",
-                "--window-size=1440,900",
+                // "--headless",
+                // "--disable-gpu",
+                "--window-size=1920,1080",
             ],
         },
     },

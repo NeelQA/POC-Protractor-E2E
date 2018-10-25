@@ -11,7 +11,7 @@ const log = debug("sync-plugin");
 
 class SyncPlugin implements ProtractorPlugin {
 
-    name: "synchronization";
+    name?: "synchronization";
 
     get skipAngularStability() {
         return true;
